@@ -23,8 +23,6 @@ Note: Always prefer providing path to xml files over hbase zookeeper properties.
 
 	java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.CreateTable
 	
-	java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.DeleteTable
-	
 	java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.ListTables
 	
 	java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.InsertIntoTable
@@ -36,4 +34,6 @@ Note: Always prefer providing path to xml files over hbase zookeeper properties.
 	java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.FilterTable
 	
 	java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.DeleteRecordsFromTable
+
+    java -cp target/java-hbase-jar-with-dependencies.jar com.datafibers.hbase.DeleteTable
 
