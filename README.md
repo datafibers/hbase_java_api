@@ -1,4 +1,4 @@
-## java-hbase
+## HBase Java API Demo
 
 Explains how we can connect to HBase using Java and perform multiple operations on HBase tables.
 
