@@ -8,7 +8,7 @@ import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 
 /**
- * @author Prasad Khode
+ * @author datafibers
  *
  */
 public class DeleteTable {

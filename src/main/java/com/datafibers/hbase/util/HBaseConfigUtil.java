@@ -8,7 +8,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 
 /**
- * @author Prasad Khode
+ * @author datafibers
  *
  */
 public class HBaseConfigUtil {

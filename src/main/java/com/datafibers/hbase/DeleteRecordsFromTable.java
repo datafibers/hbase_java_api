@@ -16,7 +16,7 @@ import org.apache.hadoop.hbase.client.Table;
 import org.apache.hadoop.hbase.util.Bytes;
 
 /**
- * @author Prasad Khode
+ * @author datafibers
  *
  */
 public class DeleteRecordsFromTable {

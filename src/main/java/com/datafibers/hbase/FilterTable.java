@@ -18,7 +18,7 @@ import org.apache.hadoop.hbase.filter.SingleColumnValueFilter;
 import org.apache.hadoop.hbase.util.Bytes;
 
 /**
- * @author Prasad Khode
+ * @author datafibers
  *
  */
 public class FilterTable {

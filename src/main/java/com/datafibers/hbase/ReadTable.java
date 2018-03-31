@@ -15,7 +15,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import com.datafibers.hbase.util.HBaseConfigUtil;
 
 /**
- * @author Prasad Khode
+ * @author datafibers
  *
  */
 public class ReadTable {
