@@ -43,9 +43,9 @@ public class InsertIntoTable {
 				Put person = new Put(Bytes.toBytes(people[i][0]));
 				person.addColumn(Bytes.toBytes("name"), Bytes.toBytes("first"), Bytes.toBytes(people[i][1]));
 				person.addColumn(Bytes.toBytes("name"), Bytes.toBytes("last"), Bytes.toBytes(people[i][2]));
-				person.addColumn(Bytes.toBytes("contact_info"), Bytes.toBytes("email"), Bytes.toBytes(people[i][3]));
-				person.addColumn(Bytes.toBytes("personal_info"), Bytes.toBytes("gender"), Bytes.toBytes(people[i][4]));
-				person.addColumn(Bytes.toBytes("personal_info"), Bytes.toBytes("age"), Bytes.toBytes(people[i][5]));
+				person.addColumn(Bytes.toBytes("contactinfo"), Bytes.toBytes("email"), Bytes.toBytes(people[i][3]));
+				person.addColumn(Bytes.toBytes("personalinfo"), Bytes.toBytes("gender"), Bytes.toBytes(people[i][4]));
+				person.addColumn(Bytes.toBytes("personalinfo"), Bytes.toBytes("age"), Bytes.toBytes(people[i][5]));
 				table.put(person);
 			}
 		} catch (Exception e) {
