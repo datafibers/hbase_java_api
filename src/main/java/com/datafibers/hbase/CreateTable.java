@@ -30,8 +30,8 @@ public class CreateTable {
 			if (!admin.isTableAvailable(TableName.valueOf(tableName))) {
 				HTableDescriptor hbaseTable = new HTableDescriptor(TableName.valueOf(tableName));
 				hbaseTable.addFamily(new HColumnDescriptor("name"));
-				hbaseTable.addFamily(new HColumnDescriptor("contact_info"));
-				hbaseTable.addFamily(new HColumnDescriptor("personal_info"));
+				hbaseTable.addFamily(new HColumnDescriptor("contactinfo"));
+				hbaseTable.addFamily(new HColumnDescriptor("personalinfo"));
 				admin.createTable(hbaseTable);
 			}
 		} catch (Exception e) {
