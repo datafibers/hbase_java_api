@@ -34,7 +34,7 @@ public class DeleteRecordsFromTable {
 			List<Delete> deleteList = new ArrayList<Delete>();
 
 			for (int rowKey = 1; rowKey <= 10; rowKey++) {
-				deleteList.add(new Delete(Bytes.toBytes(rowKey + "")));
+				deleteList.add(new Delete(Bytes.toBytes(rowKey + ""))); // here use rowKey + "" make it as string
 			}
 
 			table.delete(deleteList);
